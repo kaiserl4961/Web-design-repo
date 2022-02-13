@@ -21,7 +21,8 @@ img {
     border: black;
     border-width: 1px;
     border-style: solid;
-    margin: auto;
+    margin: 0px;
+    width: 100pc;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
 }
 
 footer {
-    background-color: #12844b;
+    background-color: #1e6e46;
     font-family: "Oxygen", sans-serif;
     color: white;
     overflow: hidden;
@@ -56,4 +57,12 @@ section {
 
 p {
     margin: 5px;
+    color: goldenrod;
+    text-align: center;
+}
+
+a {
+    margin: 5px;
+    color: black;
+    text-decoration: none;
 }
