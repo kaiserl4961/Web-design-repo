@@ -8,6 +8,7 @@ body {
     background-color: #12844b;
     background-size: cover;
     background-repeat: repeat-y;
+    text-align: center;
 }
 
 header {
@@ -15,14 +16,15 @@ header {
     color: white;
     overflow: auto;
     padding: auto;
+    text-align: center;
 }
 
 img {
     border: black;
     border-width: 1px;
     border-style: solid;
-    margin: 0px;
-    width: 100pc;
+    margin: 10px;
+    width: 95pc;
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
     color: rgb(0, 0, 0);
     font-size: auto;
     line-height: 55px;
-    float: left;
+    float: center;
     padding: auto;
     padding: 10px 20px;
     height: 70px;
@@ -43,9 +45,7 @@ footer {
     color: white;
     overflow: hidden;
     height: 3pc;
-    position: fixed;
     font-size: 18px;
-    bottom: 0px;
     width: 100%;
     text-align: center;
 }
