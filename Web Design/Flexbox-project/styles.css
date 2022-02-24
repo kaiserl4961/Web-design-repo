@@ -1,4 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 200px;
+}
+
+.container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -28,4 +40,24 @@ p {
     padding: 10px;
     background: aqua;
     font-size: 32px;
+}
+
+body {
+    margin: 0;
+    background-image: url(https://ktla.com/wp-content/uploads/sites/4/2022/02/GettyImages-1368007281.jpg?strip=1);
+    background-size: contain;
+    background-repeat: repeat-y;
+    text-align: center;
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+    flex: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
