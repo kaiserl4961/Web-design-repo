@@ -10,14 +10,6 @@
     flex: 200px;
 }
 
-.container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    flex: 200px;
-}
-
 header {
     background-color: #4287f5;
     color: white;
