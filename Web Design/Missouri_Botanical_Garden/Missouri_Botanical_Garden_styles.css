@@ -65,6 +65,14 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: aqua;
+}
+
 ul {
     text-align: left;
 }
