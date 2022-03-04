@@ -24,8 +24,12 @@ img {
     border: black;
     border-width: 1px;
     border-style: solid;
-    margin: 10px;
-    width: 95pc;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -50,6 +54,9 @@ footer {
     padding-top: 5px;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -83,4 +90,23 @@ a:visited {
 
 a:hover {
     color: lightgreen;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 200px;
+}
+
+ul {
+    margin: 10px;
+    padding: 10px;
+    background: aqua;
+    font-size: 32px;
 }
