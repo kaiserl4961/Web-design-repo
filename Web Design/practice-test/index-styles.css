@@ -1,22 +1,20 @@
-* {
-    margin: 0px;
-    overflow: auto;
-}
-
 body {
-    background-color: blue;
-    font-family: 'Jura', sans-serif;
+    background-color: #BCD2E8;
+    margin: 0%;
 }
 
 header {
     background-color: #1E3F66;
     color: white;
-    font-size: 36px;
-    padding: 5px;
+    padding: 10px;
     font-family: 'Anton', sans-serif;
 }
 
 h1 {
+    font-size: 36px;
+}
+
+h2 {
     font-size: 24px;
 }
 
@@ -26,26 +24,25 @@ img {
 
 section {
     background-color: #BCD2E8;
-    padding: 10px;
+    padding: 15px;
 }
 
-nav ul {
-    list-style-type: none;
-    background-color: black;
-    overflow: hidden;
+nav {
+    background-color: rgb(83, 81, 81);
+    overflow: auto;
+    display: flex;
 }
 
 nav li {
     display: inline;
-    overflow: hidden;
 }
 
 nav li a {
     color: white;
     background-color: black;
+    padding: 14px 20px;
     text-decoration: none;
-    padding: 14px 16px;
-    border: 1px solid white;
+    text-align: center;
 }
 
 nav li a:visited {
@@ -63,6 +60,6 @@ nav li a:active {
 footer {
     background-color: #1E3F66;
     color: white;
-    font-size: 36px;
+    font-size: 24px;
     padding: 10px;
 }
