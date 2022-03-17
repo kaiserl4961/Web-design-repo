@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>LJ Landscaping</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<style>
+	body {
+    background-color: #FFFF;
+    margin: 0%;
+	font-family: 'Roboto', sans-serif;
+	}
+
+	header {
+		background-color: #4e9231;
+		color: black;
+		padding-left: 20px;
+		padding: 15px;
+		font-family: 'Lato', sans-serif;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	img {
+		width: 400px;
+	}
+
+	section {
+		background-color: #FFFF;
+		padding-left: 20px;
+		padding: 15px;
+	}
+
+	nav {
+		background-color: #000000;
+		overflow: auto;
+		display: flex;
+	}
+
+	nav li {
+		display: inline;
+		padding-left: 10px;
+	}
+
+	nav li a {
+		color: white;
+		background-color: black;
+		text-decoration: none;
+		padding: 15px;
+	}
+
+	nav li a:visited {
+		color: rgb(0, 255, 72);
+	}
+
+	nav li a:hover {
+		background-color: white;
+		border-style: solid;
+		border-color: #00000;
+		border-width: 1px;
+		color: black;
+	}
+
+	nav li a:active {
+		color: rgb(255, 0, 0);
+	}
+
+	footer {
+		background-color: #4e9231;
+		color: black;
+		font-size: 18px;
+		padding-left: 20px;
+		padding: 15px;
+	}
+</style>
+
+<body>
+    <header>
+        <h1>
+            <p><b>LJ Landscaping</b></p>
+        </h1>
+        <h2>
+            <p>For all your lawncare needs!</p>
+        </h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">2nd page</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p style="font-size: 30px"><b>Services</b></p>
+		<ul>
+			<li>Lorem ipsum dolor sit amet</li>
+			<li>Duis vel magna non dui finibus tempor</li>
+			<li>Sed at ullamcorper justo</li>
+			<li>Quisque faucibus consectetur fermentum</li>
+			<li>Cras convallis arcu et maximus porta</li>
+		</ul>
+		<img src="creative-landscaping.JPG" alt="">
+    </section>
+    <footer>
+        <p>Contact us for a free estimate today! (314) 230-5555</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Jura&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <p> Optimal Edge</p>
+        </h1>
+        <br>
+        <h2>
+            <p><i>Web and graphic design</i></p>
+        </h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">2nd page</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem neque provident in esse architecto nostrum voluptatibus eligendi reprehenderit consectetur ratione, officiis unde, modi enim autem voluptatum non nobis mollitia ipsum.</p>
+        <p>Irure pariatur magna reprehenderit consequat proident excepteur velit do est eu ea proident duis duis. Aute in dolore ad tempor aliqua enim adipisicing eu exercitation labore. Amet voluptate laboris exercitation consequat amet qui aute consequat.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" alt="">
+    </section>
+    <footer>
+        <p>call for a free consultation today! (555)555-5555</p>
+    </footer>
+</body>
+
+</html>
+
+body {
+    background-color: #4e9231;
+    margin: 0%;
+}
+
+header {
+    background-color: #1E3F66;
+    color: white;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+img {
+    width: 600px;
+}
+
+section {
+    background-color: #BCD2E8;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(83, 81, 81);
+    overflow: auto;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: white;
+    background-color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li a:visited {
+    color: aqua;
+}
+
+nav li a:hover {
+    color: rgb(255, 208, 0);
+}
+
+nav li a:active {
+    color: rgb(255, 0, 0);
+}
+
+footer {
+    background-color: #1E3F66;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+-->
