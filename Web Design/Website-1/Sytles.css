@@ -1,6 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    float: none
+}
+
+body {
+    margin: 0%;
+    background-image: url(../Images/NASA\ logo.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding: auto;
+    color: white;
 }
 
 header {
@@ -9,4 +19,49 @@ header {
     overflow: auto;
     width: 100%;
     font-family: 'Oxygen', sans-serif;
+}
+
+img {
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+    margin: 10px;
+    width: 20pc;
+}
+
+h1 {
+    padding: auto;
+    padding-left: 10px;
+    margin: auto;
+}
+
+section {
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #121D84;
+    color: white;
+    overflow: auto;
+    text-align: left;
+    width: 100%;
+    padding: auto;
+    padding-left: 10px;
+    font-family: 'Oxygen', sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+
+.contentLeft {
+    position: relative;
+    float: left;
+    width: 60%;
+    padding: 2%;
+}
+
+.contentRight {
+    position: relative;
+    float: right;
+    width: 30%;
+    padding: 2%;
 }
