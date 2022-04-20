@@ -50,6 +50,8 @@ footer {
     font-family: 'Oxygen', sans-serif;
     position: fixed;
     bottom: 0;
+    clear: both;
+    float: none;
 }
 
 .contentLeft {
