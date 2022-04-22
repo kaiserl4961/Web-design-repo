@@ -1,0 +1,65 @@
+body {
+    background-color: darkblue;
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0%
+}
+
+header {
+    background-color: black;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: left;
+    overflow: auto;
+}
+
+nav {
+    background-color: black;
+    padding: 0px;
+    overflow: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav li a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    background-image: url(https://media2.giphy.com/media/V4NSR1NG2p0KeJJyr5/200.gif);
+    color: white;
+    font-style: bold;
+    text-align: center;
+    font-size: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    overflow: auto;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.imageContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imageGrid {
+    display: inline-grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
