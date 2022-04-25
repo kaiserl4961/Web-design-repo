@@ -53,12 +53,18 @@ section {
     margin: 0%;
 }
 
+.smallerImageContainer {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .imageContainer {
     margin-top: 1%;
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    border: 1px solid white;
 }
 
 .myGallery {
@@ -78,11 +84,12 @@ section {
 .myGallery .item {
     position: relative;
     overflow: hidden;
+    align-items: stretch;
 }
 
 .myGallery .item img {
     vertical-align: middle;
-    align-items: stretch;
+    height: 100%;
 }
 
 .myGallery .caption {
@@ -104,4 +111,24 @@ section {
 
 .myGallery .item:hover .caption {
     transform: translateY(0%);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red
+}
+
+a:active {
+    color: hotpink;
+}
+
+a:visited {
+    color: rgb(255, 217, 0);
+}
+
+a:hover {
+    color: lightgreen;
 }
