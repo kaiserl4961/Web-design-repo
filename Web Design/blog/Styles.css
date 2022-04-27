@@ -136,3 +136,8 @@ a:visited {
 a:hover {
     color: lightgreen;
 }
+
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
