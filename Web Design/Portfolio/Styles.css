@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: darkblue;
+    background-color: #00008b;
     font-family: 'Julius Sans One', sans-serif;
     margin: 0%;
 }
@@ -51,8 +51,7 @@ section {
     text-align: center;
     font-size: auto;
     font-family: 'Julius Sans One', sans-serif;
-    overflow: auto;
-    padding: 5px;
+    overflow: hidden;
     width: 100%;
     margin: 0%;
 }
@@ -88,15 +87,38 @@ section {
 .contentLeft {
     margin-top: 1%;
     position: relative;
-    width: 40%;
+    width: 20%;
     float: left;
+}
+
+.biggerContentLeft {
+    margin-top: 1%;
+    width: 80%;
+    float: left;
+}
+
+.contentContainer {
+    margin-top: 1%;
+    width: 100%;
+    overflow: auto;
 }
 
 .contentRight {
     margin-top: 1%;
-    position: relative;
-    width: 40%;
+    width: 20%;
     float: right;
+    position: sticky;
+    top: 0;
+    background-color: darkblue;
+    display: flex
+}
+
+.rightNav {
+    width: 20%;
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: darkblue;
 }
 
 .myGallery {
@@ -168,4 +190,11 @@ a:hover {
 p {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+.ballBox {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
