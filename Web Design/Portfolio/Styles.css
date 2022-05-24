@@ -103,6 +103,11 @@ section {
     overflow: auto;
 }
 
+.stickyNav {
+    position: fixed;
+    top: 0;
+}
+
 .contentRight {
     margin-top: 1%;
     width: 20%;
