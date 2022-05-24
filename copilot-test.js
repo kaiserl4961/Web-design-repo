@@ -35,3 +35,13 @@ update();
 // DO NOT FUCKING USE
 // Language: javascript
 // TIFU
+
+function iterateThroughSpreadsheetRowsAndPutThemInANArray(spreadsheetId, sheetName, callback) {
+    var sheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName(sheetName);
+    var data = sheet.getDataRange().getValues();
+    var result = [];
+    for (var i = 0; i < data.length; i++) {
+        result.push(data[i]);
+    }
+    callback(result);
+}
